@@ -16,7 +16,6 @@ The repo pairs each target binary with the script used against it in the corresp
 | https://youtu.be/lQSBpEJbJaY | `authpass_cert_bypass.js` | `authpass-pinned-unsigned.ipa` | Bypassing SSL/TLS pinning in an iOS Flutter app by analyzing `App.framework` directly using `r2flutter` plugin inside `radare`. |
 | https://youtu.be/0uUSwMg2suk | `funnybones_frida.js` | `funnybones.apk`, `funnybones_obf.apk` | Dealing with an obfuscated Flutter app by resolving Dart Object Pool indirections. Covers DartVM internals — Snapshots and Isolates — and how the Dart Object Pool works, the key component for making sense of an obfuscated app and for dumping Dart objects from `libapp.so`. |
 | https://youtu.be/Pw4_lepwVEs | `flutter_obf_frida.js`, `AES_decrypt.py` | `news.apk`, `news_enc_obf.apk` | **I**ntercepting & decrypting encrypted traffic from an obfuscated Flutter app. Reverse engineering the Flutter app, bypassing certificate pinning, analyzing encrypted API requests/responses, and dumping the AES key (via the Dart object dumper) to decrypt the data with `AES_decrypt.py`. |
-|  |  |  |  |
 
 ---
 
